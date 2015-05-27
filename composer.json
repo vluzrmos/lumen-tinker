@@ -3,7 +3,7 @@
     "license": "DBAD",
     "description": "An Interactive Shell to Lumen Framework.",
     "keywords": ["Tinker", "Lumen", "Shell"],
-    "license": "DBAD",
+    "license": "MIT",
     "type": "package",
     "authors":[
       {
