@@ -5,6 +5,12 @@
     "keywords": ["Tinker", "Lumen", "Shell"],
     "license": "DBAD",
     "type": "package",
+    "authors":[
+      {
+        "name": "Vagner do Carmo",
+        "email": "vluzrmos@gmail.com"
+      }
+    ],
     "require":{
       "illuminate/support": "5.0.*",
       "illuminate/console": "5.0.*",
