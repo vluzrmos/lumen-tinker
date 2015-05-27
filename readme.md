@@ -10,7 +10,7 @@ Download from packagist:
 
 `composer require vluzrmos/tinker`
 
-Add the Service Provider to the `bootstrap/app.php` file:
+Add the Service Provider to the `artisan` file:
 
 ```php
 $app->register('Vluzrmos\Tinker\TinkerServiceProvider');
@@ -25,6 +25,5 @@ To use the shell:
 
 # Credits
 
-That package is a partial of modification 
-of [Illuminate/Framework](https://github.com/illuminate/framework) and that is 
-Copyright (c) of [Taylor Otwell](https://github.com/taylorotwell). 
+That package is a partial modification 
+of [Illuminate/Framework](https://github.com/illuminate/framework) and that is copyright of [Taylor Otwell](https://github.com/taylorotwell). 
