@@ -1,7 +1,7 @@
 {
     "name": "vluzrmos/tinker",
     "description": "An Interactive Shell to Lumen Framework.",
-    "keywords": ["Tinker", "Lumen", "Shell"],
+    "keywords": ["Tinker", "Laravel", "Lumen", "Shell"],
     "license": "MIT",
     "type": "package",
     "authors":[
