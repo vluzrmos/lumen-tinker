@@ -1,6 +1,10 @@
 {
     "name": "vluzrmos/tinker",
-
+    "license": "DBAD",
+    "description": "An Interactive Shell to Lumen Framework.",
+    "keywords": ["Tinker", "Lumen", "Shell"],
+    "license": "DBAD",
+    "type": "package",
     "require":{
       "illuminate/support": "5.0.*",
       "illuminate/console": "5.0.*",

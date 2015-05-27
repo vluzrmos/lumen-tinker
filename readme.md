@@ -1,5 +1,7 @@
 # Lumen Artisan Tinker
 
+[![Latest Stable Version](https://poser.pugx.org/vluzrmos/tinker/v/stable)](https://packagist.org/packages/vluzrmos/tinker) [![Total Downloads](https://poser.pugx.org/vluzrmos/tinker/downloads)](https://packagist.org/packages/vluzrmos/tinker) [![Latest Unstable Version](https://poser.pugx.org/vluzrmos/tinker/v/unstable)](https://packagist.org/packages/vluzrmos/tinker) [![License](https://poser.pugx.org/vluzrmos/tinker/license)](https://packagist.org/packages/vluzrmos/tinker)
+
 An Interactive Shell to Lumen Framework.
 
 # Installation
