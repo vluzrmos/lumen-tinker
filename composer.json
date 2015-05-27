@@ -1,0 +1,15 @@
+{
+    "name": "vluzrmos/tinker",
+
+    "require":{
+      "illuminate/support": "5.0.*",
+      "illuminate/console": "5.0.*",
+      "psy/psysh":"0.4.*"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "Vluzrmos\\Tinker\\": "src/"
+        }
+    }
+}
