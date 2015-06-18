@@ -11,8 +11,8 @@
       }
     ],
     "require":{
-      "illuminate/support": "5.0.*",
-      "illuminate/console": "5.0.*",
+      "illuminate/support": "5.0.*|5.1.*",
+      "illuminate/console": "5.0.*|5.1.*",
       "psy/psysh":"0.4.*"
     },
 
