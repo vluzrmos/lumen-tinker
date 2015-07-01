@@ -8,13 +8,17 @@ An Interactive Shell to Lumen Framework.
 
 Download from packagist:
 
-`composer require vluzrmos/tinker`
+`composer require vluzrmos/tinker --dev`
 
 Add the Service Provider to the `artisan` file:
 
 ```php
-$app->register('Vluzrmos\Tinker\TinkerServiceProvider');
+if(class_exists('Vluzrmos\Tinker\TinkerServiceProvider')) {
+    $app->register('Vluzrmos\Tinker\TinkerServiceProvider');
+}
 ```
+
+> Note: *This will not affect the performance of your application.*
 
 And that is it, to see if it works do `php artisan`, and be sure to 
 see the command `tinker` there.
