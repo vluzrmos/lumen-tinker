@@ -1,5 +1,7 @@
 # Lumen Artisan Tinker
 
+[![Join the chat at https://gitter.im/vluzrmos/lumen-tinker](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/vluzrmos/lumen-tinker?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 [![Latest Stable Version](https://poser.pugx.org/vluzrmos/tinker/v/stable)](https://packagist.org/packages/vluzrmos/tinker) [![Total Downloads](https://poser.pugx.org/vluzrmos/tinker/downloads)](https://packagist.org/packages/vluzrmos/tinker) [![Latest Unstable Version](https://poser.pugx.org/vluzrmos/tinker/v/unstable)](https://packagist.org/packages/vluzrmos/tinker) [![License](https://poser.pugx.org/vluzrmos/tinker/license)](https://packagist.org/packages/vluzrmos/tinker)
 
 An Interactive Shell to Lumen Framework.
