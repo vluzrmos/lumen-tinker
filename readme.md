@@ -6,6 +6,8 @@
 
 An Interactive Shell to Lumen Framework.
 
+[![Preview](http://i.imgur.com/3jfvcck.png)](https://github.com/vluzrmos/lumen-tinker)
+
 # Installation
 
 Download from packagist:
