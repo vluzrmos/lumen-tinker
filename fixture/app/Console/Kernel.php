@@ -9,5 +9,9 @@ use Laravel\Lumen\Console\Kernel as ConsoleKernel;
  */
 class Kernel extends ConsoleKernel
 {
+    /**
+     * Commands should be loaded.
+     * @var array
+     */
     protected $commands = [];
 }
