@@ -34,4 +34,4 @@ To use the shell:
 # Credits
 
 That package is a partial modification
-of [Illuminate/Framework/Foundation/TinkerCommand](https://github.com/illuminate/framework) and that is copyright of [Taylor Otwell](https://github.com/taylorotwell).
+of [illuminate/framework](https://github.com/illuminate/framework) and that is copyright of [Taylor Otwell](https://github.com/taylorotwell).
