@@ -15,6 +15,13 @@ An Interactive Shell to Lumen Framework.
 
 # Installation
 
+Package Versions:
+
+| Lumen | Tinker |
+|-------|--------|
+| 5.0   | 1.0.*  |
+| 5.1   | 1.1.*  |
+
 Download from packagist:
 
 `composer require vluzrmos/tinker`
