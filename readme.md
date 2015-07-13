@@ -2,7 +2,12 @@
 
 [![Join the chat at https://gitter.im/vluzrmos/lumen-tinker](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/vluzrmos/lumen-tinker?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
-[![Latest Stable Version](https://poser.pugx.org/vluzrmos/tinker/v/stable)](https://packagist.org/packages/vluzrmos/tinker) [![Total Downloads](https://poser.pugx.org/vluzrmos/tinker/downloads)](https://packagist.org/packages/vluzrmos/tinker) [![Latest Unstable Version](https://poser.pugx.org/vluzrmos/tinker/v/unstable)](https://packagist.org/packages/vluzrmos/tinker) [![License](https://poser.pugx.org/vluzrmos/tinker/license)](https://packagist.org/packages/vluzrmos/tinker)
+[![Latest Stable Version](https://poser.pugx.org/vluzrmos/tinker/v/stable)](https://packagist.org/packages/vluzrmos/tinker) 
+[![Total Downloads](https://poser.pugx.org/vluzrmos/tinker/downloads)](https://packagist.org/packages/vluzrmos/tinker) 
+[![License](https://poser.pugx.org/vluzrmos/tinker/license)](https://packagist.org/packages/vluzrmos/tinker) 
+[![Build Status](https://travis-ci.org/vluzrmos/lumen-tinker.svg?branch=master)](https://travis-ci.org/vluzrmos/lumen-tinker) 
+[![StyleCI](https://styleci.io/repos/36338064/shield)](https://styleci.io/repos/36338064) 
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/vluzrmos/lumen-tinker/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/vluzrmos/lumen-tinker/?branch=master)
 
 An Interactive Shell to Lumen Framework.
 
@@ -30,6 +35,14 @@ see the command `tinker` there.
 To use the shell:
 
 `php artisan tinker`
+
+# Known Issues
+
+Lumen UrlGenerator do not generate correctly urls for non-browser requests, if you
+want to generate url on console commands or tests, I recommend you to install that 
+package to fix it:
+
+- [vluzrmos/lumen-url-host](https://github.com/vluzrmos/lumen-url-host).
 
 # Credits
 
