@@ -12,7 +12,7 @@ An Interactive Shell to Lumen Framework.
 
 Download from packagist:
 
-`composer require vluzrmos/tinker --dev`
+`composer require vluzrmos/tinker`
 
 Add the Service Provider to the `artisan` file:
 
@@ -24,14 +24,14 @@ if(class_exists('Vluzrmos\Tinker\TinkerServiceProvider')) {
 
 > Note: *This will not affect the performance of your application.*
 
-And that is it, to see if it works do `php artisan`, and be sure to 
+And that is it, to see if it works do `php artisan`, and be sure to
 see the command `tinker` there.
- 
+
 To use the shell:
 
 `php artisan tinker`
 
 # Credits
 
-That package is a partial modification 
-of [Illuminate/Framework](https://github.com/illuminate/framework) and that is copyright of [Taylor Otwell](https://github.com/taylorotwell). 
+That package is a partial modification
+of [Illuminate/Framework/Foundation/TinkerCommand](https://github.com/illuminate/framework) and that is copyright of [Taylor Otwell](https://github.com/taylorotwell).
