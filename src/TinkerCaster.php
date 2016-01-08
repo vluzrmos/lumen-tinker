@@ -46,7 +46,7 @@ class TinkerCaster
         foreach (self::$appProperties as $property) {
             try {
                 $val = $app->$property();
-                if (!is_null($val)) {
+                if (! is_null($val)) {
                     $results[Caster::PREFIX_VIRTUAL.$property] = $val;
                 }
             } catch (Exception $e) {

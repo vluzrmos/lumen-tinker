@@ -65,7 +65,7 @@ class TinkerShell
      */
     public function getShell()
     {
-        if (!$this->shell) {
+        if (! $this->shell) {
             $config = new Configuration();
 
             $config->getPresenter()->addCasters(
