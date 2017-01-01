@@ -5,3 +5,5 @@ vendor
 lumen.log
 .php_cs.cache
 tmp[a-zA-Z0-9]{6,99}
+Vagrantfile
+.vagrant/
