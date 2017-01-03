@@ -9,6 +9,9 @@
 namespace Vluzrmos\Tinker;
 
 use Illuminate\Contracts\Console\Kernel as Console;
+use Illuminate\Database\Eloquent\Model;
+use Illuminate\Support\Collection;
+use Laravel\Lumen\Application;
 use Psy\Configuration;
 use Psy\Shell;
 
@@ -88,9 +91,9 @@ class TinkerShell
     protected function getCasters()
     {
         return [
-            'Laravel\Lumen\Application' => 'Vluzrmos\Tinker\TinkerCaster::castApplication',
-            'Illuminate\Support\Collection' => 'Vluzrmos\Tinker\TinkerCaster::castCollection',
-            'Illuminate\Database\Eloquent\Model' => 'Vluzrmos\Tinker\TinkerCaster::castModel',
+            Application::class => 'Vluzrmos\Tinker\TinkerCaster::castApplication',
+            Collection::class => 'Vluzrmos\Tinker\TinkerCaster::castCollection',
+            Model::class => 'Vluzrmos\Tinker\TinkerCaster::castModel',
         ];
     }
 

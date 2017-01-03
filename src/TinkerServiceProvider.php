@@ -17,7 +17,7 @@ class TinkerServiceProvider extends ServiceProvider
     public function register()
     {
         $this->commands([
-            'Vluzrmos\Tinker\TinkerCommand',
+            TinkerCommand::class,
         ]);
     }
 }

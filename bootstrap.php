@@ -1,6 +1,6 @@
 <?php
 
-require_once 'vendor/autoload.php';
+require_once __DIR__ . '/vendor/autoload.php';
 
 $path = __DIR__.'/fixture';
 
@@ -34,9 +34,15 @@ $app->withEloquent();
 |
 */
 
-$app->singleton('Illuminate\Contracts\Console\Kernel', 'App\Console\Kernel');
+$app->singleton(
+    Illuminate\Contracts\Console\Kernel::class,
+    App\Console\Kernel::class
+);
 
-$app->get('awesome/action', 'AwesomeController@action');
+$app->singleton(
+    Illuminate\Contracts\Debug\ExceptionHandler::class,
+    Laravel\Lumen\Exceptions\Handler::class
+);
 
 /*
 |--------------------------------------------------------------------------
@@ -50,11 +56,8 @@ $app->get('awesome/action', 'AwesomeController@action');
 */
 
 $app->middleware([
-    Illuminate\Cookie\Middleware\EncryptCookies::class,
-    Illuminate\Cookie\Middleware\AddQueuedCookiesToResponse::class,
     Illuminate\Session\Middleware\StartSession::class,
-    Illuminate\View\Middleware\ShareErrorsFromSession::class,
-    Laravel\Lumen\Http\Middleware\VerifyCsrfToken::class,
+    Illuminate\View\Middleware\ShareErrorsFromSession::class
 ]);
 
 $app->routeMiddleware([]);
