@@ -49,6 +49,14 @@ class TinkerCommand extends Command
     }
 
     /**
+     *  Performs the event.
+     */
+    public function handle()
+    {
+        $this->fire();
+    }
+    
+    /**
      * Get the console command arguments.
      *
      * @return array
