@@ -15,7 +15,7 @@
         }
     ],
     "require":{
-        "laravel/lumen-framework": "~5.3",
+        "laravel/lumen-framework": "^5.3",
         "psy/psysh":"~0.7.0|~0.8.0"
     },
     "require-dev":{
