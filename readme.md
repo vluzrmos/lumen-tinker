@@ -46,14 +46,6 @@ To use the shell:
 
 `php artisan tinker`
 
-# Known Issues
-
-Lumen UrlGenerator do not generate correctly urls for non-browser requests, if you
-want to generate url on console commands or tests, I recommend you to install that 
-package to fix it:
-
-- [vluzrmos/lumen-url-host](https://github.com/vluzrmos/lumen-url-host).
-
 # Credits
 
 That package is a partial modification
