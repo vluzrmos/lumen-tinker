@@ -1,3 +1,7 @@
+# ABANDONED
+Please consider to use the official Laravel Tinker, it is also compatible with Lumen: [laravel/tinker](https://github.com/laravel/tinker)
+
+
 # Lumen Artisan Tinker
 
 [![Join the chat at https://gitter.im/vluzrmos/lumen-tinker](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/vluzrmos/lumen-tinker?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
