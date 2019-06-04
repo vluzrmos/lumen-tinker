@@ -33,7 +33,7 @@ Download from packagist:
 
 `composer require vluzrmos/tinker`
 
-Add the Service Provider to the `artisan` file:
+Add the Service Provider to the `bootstrap/app.php` file:
 
 ```php
 if(class_exists('Vluzrmos\Tinker\TinkerServiceProvider')) {
